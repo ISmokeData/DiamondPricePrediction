@@ -5,13 +5,13 @@ application = Flask(__name__)
 
 app = application
 
-@app.route('/')
-def home_page():
-    return render_template('index.html')
-@app.route('/predict',methods = ['GET','POST'])
+# @app.route('/')
+# def home_page():
+#     return render_template('index.html')
+@app.route('/',methods = ['GET','POST'])
 def predict_datapoint():
     if request.method == 'GET':
-        return render_template('form.html')
+        return render_template('test.html')
     
     else:
         data = CustomData(
@@ -30,8 +30,8 @@ def predict_datapoint():
         predict_Pipeline = PredictPipeline()
         pred = predict_Pipeline.predict(final_new_data)
 
-        results = round(pred[0],2)
-        return render_template('form.html',final_result = results)
+        results = "₹"+" " +(round(pred[0],2).astype(str))
+        return render_template('test.html',final_result = results)
     
 
 
