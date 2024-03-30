@@ -54,5 +54,7 @@ The project utilizes Flask's `render_template` function to render the web interf
 ### Note:
 - The gemstone dataset used in this project is sourced from Kaggle, respecting Kaggle's terms of service and guidelines.
 - For any inquiries or issues, feel free to contact the repository owner.
- **Kaggle :** (https://www.kaggle.com/datasets/dhanrajcodes/gemstone-price/data)
+- 
+ **Kaggle :** https://www.kaggle.com/datasets/dhanrajcodes/gemstone-price/data
+  
 Thank you for using this repository to explore diamond price prediction with machine learning techniques!
