@@ -1,6 +1,6 @@
 ## Machine Learning Projects
 
-
+![MasterHead](https://github.com/ISmokeData/DiamondPricePrediction/blob/2e6396dbe3511b2198364c595364b98472221397/images/Screenshot%202024-03-30%20134037.png)
 This repository contains a Diamond Price Prediction model built using machine learning techniques. The model utilizes a dataset sourced from Kaggle, which contains information about gemstones. The project encompasses various stages including data preprocessing, exploratory data analysis (EDA), feature engineering, feature selection, and model training. Finally, the model is deployed using Flask, providing a platform to interactively predict diamond prices through a web interface.:
 
 ### Files Included:
