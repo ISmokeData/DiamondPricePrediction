@@ -34,7 +34,7 @@ The notebook `diamond_price_prediction.ipynb` provides a detailed walkthrough of
 ### Flask Web Application:
 The Flask web application (`app.py`) serves as the interface for users to interact with the trained model. Users can input diamond features through a web form, and the application predicts the price using the selected model. The web interface is rendered using HTML templates located in the `templates` directory.
 
-![Alt text](images/Screenshot (123).png)
+![Alt text]([images/Screenshot (123).png](https://github.com/ISmokeData/DiamondPricePrediction/blob/8604a32b98d938be2f035bfb080f88ab51cf3c9b/images/Screenshot%20(123).png))
 
 ### Deployment:
 The project utilizes Flask's `render_template` function to render the web interface, enabling easy deployment. Simply run `app.py` to start the Flask server and access the application through a web browser.
