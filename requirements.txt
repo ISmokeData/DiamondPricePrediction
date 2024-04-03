@@ -1,23 +1,10 @@
-blinker
-click
-colorama
 Flask
 gunicorn
-itsdangerous
-Jinja2
-joblib
-MarkupSafe
 numpy
-packaging
 pandas
-python-dateutil
-pytz
 scikit-learn==1.4.1.post1
 scipy
 seaborn
-six
-threadpoolctl
-tzdata
-Werkzeug
+matplotlib
 
--e .
+-e . 
