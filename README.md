@@ -1,6 +1,8 @@
 ## Machine Learning Projects
 
-![MasterHead](https://github.com/ISmokeData/DiamondPricePrediction/blob/2e6396dbe3511b2198364c595364b98472221397/images/Screenshot%202024-03-30%20134037.png)
+![MasterHead](https://github.com/ISmokeData/DiamondPricePrediction/blob/7a6d6c13b77d920c984340e34fbcb0f14c11aba0/images/gem.png)
+
+
 This repository contains a Diamond Price Prediction model built using machine learning techniques. The model utilizes a dataset sourced from Kaggle, which contains information about gemstones. The project encompasses various stages including data preprocessing, exploratory data analysis (EDA), feature engineering, feature selection, and model training. Finally, the model is deployed using Flask, providing a platform to interactively predict diamond prices through a web interface.:
 
 ### Files Included:
@@ -34,7 +36,10 @@ The notebook `diamond_price_prediction.ipynb` provides a detailed walkthrough of
 ### Flask Web Application:
 The Flask web application (`app.py`) serves as the interface for users to interact with the trained model. Users can input diamond features through a web form, and the application predicts the price using the selected model. The web interface is rendered using HTML templates located in the `templates` directory.
 
-![image description]([relative/path/in/repository/to/image.svg](https://github.com/ISmokeData/DiamondPricePrediction/blob/8604a32b98d938be2f035bfb080f88ab51cf3c9b/images/Screenshot%20(123).png))
+
+![screenshot](https://github.com/ISmokeData/DiamondPricePrediction/blob/68f3b80574c703b7d24d49e58baf93bee9f262b8/images/Screenshot%20(123).png)
+
+
 
 ### Deployment:
 The project utilizes Flask's `render_template` function to render the web interface, enabling easy deployment. Simply run `app.py` to start the Flask server and access the application through a web browser.
@@ -50,4 +55,6 @@ The project utilizes Flask's `render_template` function to render the web interf
 - The gemstone dataset used in this project is sourced from Kaggle, respecting Kaggle's terms of service and guidelines.
 - For any inquiries or issues, feel free to contact the repository owner.
 
+ **Kaggle :** https://www.kaggle.com/datasets/dhanrajcodes/gemstone-price/data
+  
 Thank you for using this repository to explore diamond price prediction with machine learning techniques!
