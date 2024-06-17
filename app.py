@@ -32,7 +32,7 @@ def predict_datapoint():
 
         results = "₹"+" " +(round(pred[0],2).astype(str))
         return render_template('test.html',final_result = results)
-    
+
 
 
 if __name__ == "__main__":
